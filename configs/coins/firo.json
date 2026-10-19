@@ -25,9 +25,7 @@
     },
     "bootstrap": {
       "enabled": true,
-      "remote_source": [
-         "https://fluxnodeservice.com/blockbook/backend-firo-backup.tar.gz"
-      ],
+      "remote_source": [],
       "unpack_path_template": "{{.Env.BackendDataPath}}/{{.Coin.Alias}}"
     },
     "healthcheck": {
